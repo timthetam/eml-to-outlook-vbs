@@ -25,7 +25,7 @@ Dim objShell : Set objShell = CreateObject("Shell.Application")
 Dim objFolder : Set objFolder = objShell.BrowseForFolder(0, "Select the root folder containing folders of eml-files", 0)
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 Dim Item
-Dim i : i = 0
+
 If (NOT objFolder is Nothing) Then
   Set rootPath = objFSO.GetFolder(objFolder.Self.Path)
   Set WShell = CreateObject("WScript.Shell")
