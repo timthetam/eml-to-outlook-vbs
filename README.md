@@ -1,6 +1,7 @@
 ## Import .eml files into Outlook automatically, and retain folder structure
 
 This is a VBScript that can import .eml files into Outlook maintaining folder structure names and structure.
+Oringinally I was searching for a way to import a large amount of emails from Windows Live Mail (2011) that were in folders to move to Outlook 2019. Although there were lots of freeware programs online, most were limited to a few email transfers, and others didn't work on subfolders.
 
 The original work was completed by Robert Sparnaaij aka Roady (https://www.howto-outlook.com/howto/import-eml-files.htm)
 However, I have extended this version to allow the user to select a root folder containing folders of .eml files, and have these folders be created inside outlook, with the emails copied across to their respective folders.
